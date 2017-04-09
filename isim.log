@@ -1,0 +1,2 @@
+ISim log file
+Running: U:\Computer Architecture\MicroCode\Datapath\full_processor_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb U:/Computer Architecture/MicroCode/Datapath/full_processor_TB_isim_beh.wdb 

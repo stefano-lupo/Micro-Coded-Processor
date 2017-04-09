@@ -1,0 +1,2 @@
+vhdl isim_temp "control_address_register.vhd"
+vhdl isim_temp "control_address_register_TB.vhd"

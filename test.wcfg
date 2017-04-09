@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="U:/Computer Architecture/MicroCode/Datapath/temp_TB_isim_beh1.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="temp_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/temp_tb/uut/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/temp_tb/uut/load" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/temp_tb/uut/output" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">output[7:0]</obj_property>
+      <obj_property name="ObjectShortName">output[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/temp_tb/uut/in0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/temp_tb/uut/in1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/temp_tb/uut/s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/temp_tb/uut/muxout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">muxout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">muxout[7:0]</obj_property>
+   </wvobject>
+</wave_config>

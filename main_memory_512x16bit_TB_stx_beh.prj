@@ -1,0 +1,2 @@
+vhdl isim_temp "main_memory_512_16bit.vhd"
+vhdl isim_temp "main_memory_512x16bit_TB.vhd"

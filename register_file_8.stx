@@ -1,0 +1,69 @@
+Release 13.2 - xst O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to U:/Computer Architecture/Datapath/Datapath/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to U:/Computer Architecture/Datapath/Datapath/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: register_file_8.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\reg_16bit.vhd" into library work
+Parsing entity <reg_16bit>.
+Parsing architecture <Behavioral> of entity <reg_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\mux8_16bit.vhd" into library work
+Parsing entity <mux8_16bit>.
+Parsing architecture <Behavioral> of entity <mux8_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\mux2_16bit.vhd" into library work
+Parsing entity <mux2_16bit>.
+Parsing architecture <Behavioral> of entity <mux2_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\decoder_3to8.vhd" into library work
+Parsing entity <decoder_3to8>.
+Parsing architecture <Behavioral> of entity <decoder_3to8>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\register_file_8.vhd" into library work
+Parsing entity <register_file_8>.
+Parsing architecture <Behavioral> of entity <register_file_8>.
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.43 secs
+ 
+--> 
+
+Total memory usage is 197260 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

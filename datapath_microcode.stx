@@ -1,0 +1,105 @@
+Release 13.2 - xst O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to U:/Computer Architecture/MicroCode/Datapath/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to U:/Computer Architecture/MicroCode/Datapath/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: datapath_microcode.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\mux2_1bit.vhd" into library work
+Parsing entity <mux2_1bit>.
+Parsing architecture <Behavioral> of entity <mux2_1bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\full_adder_1bit.vhd" into library work
+Parsing entity <full_adder_1bit>.
+Parsing architecture <Behavioral> of entity <full_adder_1bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\ripple_adder_16bit.vhd" into library work
+Parsing entity <ripple_adder_16bit>.
+Parsing architecture <Behavioral> of entity <ripple_adder_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\logic_unit_1bit.vhd" into library work
+Parsing entity <logic_unit_1bit>.
+Parsing architecture <Behavioral> of entity <logic_unit_1bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\unit_shifter_1bit.vhd" into library work
+Parsing entity <unit_shifter_1bit>.
+Parsing architecture <Behavioral> of entity <unit_shifter_1bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\mux2_16bit.vhd" into library work
+Parsing entity <mux2_16bit>.
+Parsing architecture <Behavioral> of entity <mux2_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\logic_unit.vhd" into library work
+Parsing entity <logic_unit>.
+Parsing architecture <Behavioral> of entity <logic_unit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\arithmetic_unit.vhd" into library work
+Parsing entity <arithmetic_unit>.
+Parsing architecture <Behavioral> of entity <arithmetic_unit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\shifter_16bit.vhd" into library work
+Parsing entity <shifter_16bit>.
+Parsing architecture <Behavioral> of entity <shifter_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\reg_16bit.vhd" into library work
+Parsing entity <reg_16bit>.
+Parsing architecture <Behavioral> of entity <reg_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\mux9_16bit.vhd" into library work
+Parsing entity <mux9_16bit>.
+Parsing architecture <Behavioral> of entity <mux9_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\decoder_4to9.vhd" into library work
+Parsing entity <decoder_4to9>.
+Parsing architecture <Behavioral> of entity <decoder_4to9>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\alu.vhd" into library work
+Parsing entity <alu>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\register_file_9_16bit.vhd" into library work
+Parsing entity <register_file_9_16bit>.
+Parsing architecture <Behavioral> of entity <register_file_9_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\main_memory_512_16bit.vhd" into library work
+Parsing entity <main_memory_512_16bit>.
+Parsing architecture <Behavioral> of entity <main_memory_512_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\functional_unit.vhd" into library work
+Parsing entity <functional_unit>.
+Parsing architecture <Behavioral> of entity <functional_unit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\datapath_microcode.vhd" into library work
+Parsing entity <datapath_microcode>.
+Parsing architecture <Behavioral> of entity <datapath_microcode>.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 3.71 secs
+ 
+--> 
+
+Total memory usage is 198540 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

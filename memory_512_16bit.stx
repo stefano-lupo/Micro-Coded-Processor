@@ -1,0 +1,67 @@
+Release 13.2 - xst O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to U:/Computer Architecture/MicroCode/Datapath/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to U:/Computer Architecture/MicroCode/Datapath/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: memory_512_16bit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" into library work
+Parsing entity <memory_512_16bit>.
+ERROR:HDLCompiler:615 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 6: Near unsigned ; 0 visible identifiers match here
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 6: <unsigned> is not declared.
+ERROR:HDLCompiler:854 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 5: Unit <memory_512_16bit> ignored due to previous errors.
+Parsing architecture <Behavioral> of entity <memory_512_16bit>.
+ERROR:HDLCompiler:374 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 14: Entity <memory_512_16bit> is not yet compiled.
+ERROR:HDLCompiler:24 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 17: "**" expects 2 arguments
+ERROR:HDLCompiler:845 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 23: Type of aggregate cannot be determined without context ; 0 visible types match here
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 26: <integer> is not declared.
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 30: <addrint> is not declared.
+ERROR:HDLCompiler:541 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 36: Type memarray is not an array type and cannot be indexed.
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 39: <readdata> is not declared.
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 38: <memread> is not declared.
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 35: <memwrite> is not declared.
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 22: <address> is not declared.
+ERROR:HDLCompiler:925 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd" Line 17: Missing full type definition for memarray
+VHDL file \\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\MicroCode\Datapath\memory_512_16bit.vhd ignored due to errors
+--> 
+
+Total memory usage is 196492 kilobytes
+
+Number of errors   :   14 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

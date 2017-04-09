@@ -1,0 +1,92 @@
+Release 13.2 - xst O.61xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to U:/Computer Architecture/Datapath/Datapath/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to U:/Computer Architecture/Datapath/Datapath/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Reading design: functional_unit.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\mux2_1bit.vhd" into library work
+Parsing entity <mux2_1bit>.
+Parsing architecture <Behavioral> of entity <mux2_1bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\full_adder_1bit.vhd" into library work
+Parsing entity <full_adder_1bit>.
+Parsing architecture <Behavioral> of entity <full_adder_1bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\ripple_adder_16bit.vhd" into library work
+Parsing entity <ripple_adder_16bit>.
+Parsing architecture <Behavioral> of entity <ripple_adder_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\logic_unit_1bit.vhd" into library work
+Parsing entity <logic_unit_1bit>.
+Parsing architecture <Behavioral> of entity <logic_unit_1bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\unit_shifter_1bit.vhd" into library work
+Parsing entity <unit_shifter_1bit>.
+Parsing architecture <Behavioral> of entity <unit_shifter_1bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\mux2_16bit.vhd" into library work
+Parsing entity <mux2_16bit>.
+Parsing architecture <Behavioral> of entity <mux2_16bit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\logic_unit.vhd" into library work
+Parsing entity <logic_unit>.
+Parsing architecture <Behavioral> of entity <logic_unit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\arithmetic_unit.vhd" into library work
+Parsing entity <arithmetic_unit>.
+Parsing architecture <Behavioral> of entity <arithmetic_unit>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\shifter_16bit.vhd" into library work
+Parsing entity <shifter_16bit>.
+Parsing architecture <Behavioral> of entity <shifter_16bit>.
+WARNING:HDLCompiler:946 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\shifter_16bit.vhd" Line 30: Actual for formal port bits is neither a static name nor a globally static expression
+WARNING:HDLCompiler:946 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\shifter_16bit.vhd" Line 135: Actual for formal port bits is neither a static name nor a globally static expression
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\alu.vhd" into library work
+Parsing entity <alu>.
+Parsing architecture <Behavioral> of entity <alu>.
+Parsing VHDL file "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\functional_unit.vhd" into library work
+Parsing entity <functional_unit>.
+Parsing architecture <Behavioral> of entity <functional_unit>.
+ERROR:HDLCompiler:1314 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\functional_unit.vhd" Line 84: Formal port/generic <second_last_cout> is not declared in <alu>
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\functional_unit.vhd" Line 91: <muxout> is not declared.
+ERROR:HDLCompiler:192 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\functional_unit.vhd" Line 91: Actual of formal out port output cannot be an expression
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\functional_unit.vhd" Line 99: <muxout> is not declared.
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\functional_unit.vhd" Line 101: <muxout> is not declared.
+ERROR:HDLCompiler:69 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\functional_unit.vhd" Line 111: <muxout> is not declared.
+ERROR:HDLCompiler:854 - "\\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\functional_unit.vhd" Line 19: Unit <behavioral> ignored due to previous errors.
+VHDL file \\tholos.itserv.scss.tcd.ie\ugrad\lupos\Computer Architecture\Datapath\Datapath\functional_unit.vhd ignored due to errors
+--> 
+
+Total memory usage is 197260 kilobytes
+
+Number of errors   :    7 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

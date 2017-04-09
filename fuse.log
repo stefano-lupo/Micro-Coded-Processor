@@ -1,0 +1,71 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "U:/Computer Architecture/MicroCode/Datapath/full_processor_TB_isim_beh.exe" -prj "U:/Computer Architecture/MicroCode/Datapath/full_processor_TB_beh.prj" "work.full_processor_TB" 
+ISim O.61xd (signature 0x1cce1bb2)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/mux2_1bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/full_adder_1bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/ripple_adder_16bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/logic_unit_1bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/unit_shifter_1bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/mux2_16bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/logic_unit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/arithmetic_unit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/shifter_16bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/reg_16bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/mux9_16bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/mux8_1bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/decoder_4to9.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/alu.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/register_file_9_16bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/program_counter.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/mux2_8bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/main_memory_512_16bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/instruction_register.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/functional_unit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/control_memory_256_28bit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/control_address_register.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/branch_unit.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/microprogram_control.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/datapath_microcode.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/full_processor.vhd" into library work
+Parsing VHDL file "U:/Computer Architecture/MicroCode/Datapath/full_processor_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity reg_16bit [reg_16bit_default]
+Compiling architecture behavioral of entity mux9_16bit [mux9_16bit_default]
+Compiling architecture behavioral of entity decoder_4to9 [decoder_4to9_default]
+Compiling architecture behavioral of entity register_file_9_16bit [register_file_9_16bit_default]
+Compiling architecture behavioral of entity unit_shifter_1bit [unit_shifter_1bit_default]
+Compiling architecture behavioral of entity shifter_16bit [shifter_16bit_default]
+Compiling architecture behavioral of entity mux2_1bit [mux2_1bit_default]
+Compiling architecture behavioral of entity logic_unit_1bit [logic_unit_1bit_default]
+Compiling architecture behavioral of entity logic_unit [logic_unit_default]
+Compiling architecture behavioral of entity full_adder_1bit [full_adder_1bit_default]
+Compiling architecture behavioral of entity ripple_adder_16bit [ripple_adder_16bit_default]
+Compiling architecture behavioral of entity arithmetic_unit [arithmetic_unit_default]
+Compiling architecture behavioral of entity mux2_16bit [mux2_16bit_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity functional_unit [functional_unit_default]
+Compiling architecture behavioral of entity main_memory_512_16bit [main_memory_512_16bit_default]
+Compiling architecture behavioral of entity datapath_microcode [datapath_microcode_default]
+Compiling architecture behavioral of entity program_counter [program_counter_default]
+Compiling architecture behavioral of entity mux8_1bit [mux8_1bit_default]
+Compiling architecture behavioral of entity branch_unit [branch_unit_default]
+Compiling architecture behavioral of entity instruction_register [instruction_register_default]
+Compiling architecture behavioral of entity mux2_8bit [mux2_8bit_default]
+Compiling architecture behavioral of entity control_address_register [control_address_register_default]
+Compiling architecture behavioral of entity control_memory_256_28bit [control_memory_256_28bit_default]
+Compiling architecture behavioral of entity microprogram_control [microprogram_control_default]
+Compiling architecture behavioral of entity full_processor [full_processor_default]
+Compiling architecture behavior of entity full_processor_tb
+Time Resolution for simulation is 1ps.
+Compiled 58 VHDL Units
+Built simulation executable U:/Computer Architecture/MicroCode/Datapath/full_processor_TB_isim_beh.exe
+Fuse Memory Usage: 28748 KB
+Fuse CPU Usage: 733 ms

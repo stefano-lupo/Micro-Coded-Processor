@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="U:/Computer Architecture/MicroCode/Datapath/full_processor_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="full_processor_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/full_processor_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/dp/regFile/reg0_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg0_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg0_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/dp/regFile/reg1_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg1_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/dp/regFile/reg2_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg2_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/dp/regFile/reg3_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg3_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg3_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/dp/regFile/reg4_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg4_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg4_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/dp/regFile/reg5_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg5_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg5_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/dp/regFile/reg6_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg6_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg6_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/dp/regFile/reg7_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg7_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg7_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/dp/regFile/reg8_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg8_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg8_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/control/pc/currentpc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">currentpc[15:0]</obj_property>
+      <obj_property name="ObjectShortName">currentpc[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/control/ir/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[7:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_processor_tb/uut/control/car/currentcar" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">currentcar[7:0]</obj_property>
+      <obj_property name="ObjectShortName">currentcar[7:0]</obj_property>
+   </wvobject>
+</wave_config>

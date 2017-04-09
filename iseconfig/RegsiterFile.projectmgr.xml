@@ -1,0 +1,237 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="RegsiterFile" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/alu - Behavioral U:|Computer Architecture|Datapath|Datapath|alu.vhd</ClosedNode>
+         <ClosedNode>/datapath - Behavioral U:|Computer Architecture|Datapath|Datapath|datapath.vhd/fu - functional_unit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath - Behavioral U:|Computer Architecture|Datapath|Datapath|datapath.vhd/regFile - register_file_8 - Behavioral</ClosedNode>
+         <ClosedNode>/datapath - Behavioral U:|Computer Architecture|MicroCode|Datapath|datapath.vhd</ClosedNode>
+         <ClosedNode>/full_processor - Behavioral U:|Computer Architecture|MicroCode|Datapath|full_processor.vhd/control - microprogram_control - Behavioral/bu - branch_unit - Behavioral</ClosedNode>
+         <ClosedNode>/full_processor - Behavioral U:|Computer Architecture|MicroCode|Datapath|full_processor.vhd/dp - datapath_microcode - Behavioral/fu - functional_unit - Behavioral</ClosedNode>
+         <ClosedNode>/full_processor - Behavioral U:|Computer Architecture|MicroCode|Datapath|full_processor.vhd/dp - datapath_microcode - Behavioral/regFile - register_file_9_16bit - Behavioral</ClosedNode>
+         <ClosedNode>/functional_unit - Behavioral U:|Computer Architecture|Datapath|Datapath|functional_unit.vhd/m_alu - alu - Behavioral</ClosedNode>
+         <ClosedNode>/functional_unit - Behavioral U:|Computer Architecture|Datapath|Datapath|functional_unit.vhd/shifter - shifter_16bit - Behavioral</ClosedNode>
+         <ClosedNode>/register_file_4 - Behavioral U:|CA Register File|RegsiterFile|register_file_4.vhd</ClosedNode>
+         <ClosedNode>/register_file_9_16bit - Behavioral U:|Computer Architecture|MicroCode|Datapath|register_file_9_16bit.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>full_processor - Behavioral (U:/Computer Architecture/MicroCode/Datapath/full_processor.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000211000000020000000000000000000000000200000064ffffffff000000810000000300000002000002110000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>full_processor - Behavioral (U:/Computer Architecture/MicroCode/Datapath/full_processor.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000002c60000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>alu.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>work</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000c9000000010001000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>work</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Configure Target Device</ClosedNode>
+         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/MultiplexerTB - behavior U:|CA Register File|RegsiterFile|MultiplexerTB.vhd</ClosedNode>
+         <ClosedNode>/MyTestBench - behavior U:|CA Register File|RegsiterFile|MyTestBench.vhd</ClosedNode>
+         <ClosedNode>/alu - Behavioral U:|Computer Architecture|Datapath|Datapath|alu.vhd</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu1 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu10 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu11 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu12 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu13 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu14 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu15 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu2 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu3 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu4 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu5 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu6 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu7 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu8 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|Datapath|Datapath|alu_TB.vhd/uut - alu - Behavioral/lu - logic_unit - Behavioral/lu9 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/alu_TB - behavior U:|Computer Architecture|MicroCode|Datapath|alu_TB.vhd</ClosedNode>
+         <ClosedNode>/arithmetic_unit_TB - behavior U:|Computer Architecture|Datapath|Datapath|arithmetic_unit_TB.vhd</ClosedNode>
+         <ClosedNode>/arithmetic_unit_TB - behavior U:|Computer Architecture|Datapath|Datapath|arithmetic_unit_TB.vhd/uut - arithmetic_unit - Behavioral</ClosedNode>
+         <ClosedNode>/arithmetic_unit_TB - behavior U:|Computer Architecture|Datapath|Datapath|arithmetic_unit_TB.vhd/uut - arithmetic_unit - Behavioral/ra - ripple_adder_16bit - Behavioral</ClosedNode>
+         <ClosedNode>/arithmetic_unit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|arithmetic_unit_TB.vhd</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/au - arithmetic_unit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/au - arithmetic_unit - Behavioral/ra - ripple_adder_16bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu1 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu10 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu11 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu12 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu13 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu14 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu15 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu2 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu3 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu4 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu5 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu6 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu7 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu8 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/m_alu - alu - Behavioral/lu - logic_unit - Behavioral/lu9 - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral/shifter - shifter_16bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|MicroCode|Datapath|datapath_TB.vhd</ClosedNode>
+         <ClosedNode>/datapath_TB - behavior U:|Computer Architecture|MicroCode|Datapath|datapath_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_arithmetic_TB - behavior U:|Computer Architecture|MicroCode|Datapath|datapath_arithmetic_TB.vhd</ClosedNode>
+         <ClosedNode>/datapath_instructions_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_instructions_TB.vhd</ClosedNode>
+         <ClosedNode>/datapath_instructions_TB - behavior U:|Computer Architecture|Datapath|Datapath|datapath_instructions_TB.vhd/uut - datapath - Behavioral/fu - functional_unit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_instructions_TB - behavior U:|Computer Architecture|MicroCode|Datapath|datapath_instructions_TB.vhd</ClosedNode>
+         <ClosedNode>/datapath_logic_TB - behavior U:|Computer Architecture|MicroCode|Datapath|datapath_logic_TB.vhd</ClosedNode>
+         <ClosedNode>/datapath_microcode_TB - behavior U:|Computer Architecture|MicroCode|Datapath|datapath_microcode_TB.vhd/uut - datapath_microcode - Behavioral/fu - functional_unit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_microcode_TB - behavior U:|Computer Architecture|MicroCode|Datapath|datapath_microcode_TB.vhd/uut - datapath_microcode - Behavioral/regFile - register_file_9_16bit - Behavioral</ClosedNode>
+         <ClosedNode>/datapath_shifter_TB - behavior U:|Computer Architecture|MicroCode|Datapath|datapath_shifter_TB.vhd</ClosedNode>
+         <ClosedNode>/decoder_2to4_TB - behavior U:|CA Register File|RegsiterFile(Finished)|decoder_2to4_TB.vhd</ClosedNode>
+         <ClosedNode>/decoder_2to4_TB - behavior U:|CA Register File|RegsiterFile|decoder_2to4_TB.vhd</ClosedNode>
+         <ClosedNode>/decoder_2to4_TB - behavior U:|Computer Architecture|Datapath|Datapath|decoder_2to4_TB.vhd</ClosedNode>
+         <ClosedNode>/decoder_2to4_TB - behavior U:|Computer Architecture|MicroCode|Datapath|decoder_2to4_TB.vhd</ClosedNode>
+         <ClosedNode>/decoder_3to8_TB - behavior U:|CA Register File|RegsiterFile|decoder_3to8_TB.vhd</ClosedNode>
+         <ClosedNode>/decoder_3to8_TB - behavior U:|Computer Architecture|Datapath|Datapath|decoder_3to8_TB.vhd</ClosedNode>
+         <ClosedNode>/decoder_3to8_TB - behavior U:|Computer Architecture|MicroCode|Datapath|decoder_3to8_TB.vhd</ClosedNode>
+         <ClosedNode>/full_added_1bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|full_adder_1bit_TB.vhd</ClosedNode>
+         <ClosedNode>/full_added_1bit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|full_adder_1bit_TB.vhd</ClosedNode>
+         <ClosedNode>/full_processor_TB - behavior U:|Computer Architecture|MicroCode|Datapath|full_processor_TB.vhd/uut - full_processor - Behavioral/control - microprogram_control - Behavioral/bu - branch_unit - Behavioral</ClosedNode>
+         <ClosedNode>/full_processor_TB - behavior U:|Computer Architecture|MicroCode|Datapath|full_processor_TB.vhd/uut - full_processor - Behavioral/dp - datapath_microcode - Behavioral</ClosedNode>
+         <ClosedNode>/full_processor_TB - behavior U:|Computer Architecture|MicroCode|Datapath|full_processor_TB.vhd/uut - full_processor - Behavioral/dp - datapath_microcode - Behavioral/fu - functional_unit - Behavioral</ClosedNode>
+         <ClosedNode>/full_processor_TB - behavior U:|Computer Architecture|MicroCode|Datapath|full_processor_TB.vhd/uut - full_processor - Behavioral/dp - datapath_microcode - Behavioral/regFile - register_file_9_16bit - Behavioral</ClosedNode>
+         <ClosedNode>/func_unit_TB - behavior U:|Computer Architecture|Datapath|Datapath|func_unit_TB.vhd</ClosedNode>
+         <ClosedNode>/func_unit_TB - behavior U:|Computer Architecture|Datapath|Datapath|func_unit_TB.vhd/uut - functional_unit - Behavioral/shifter - shifter_16bit - Behavioral</ClosedNode>
+         <ClosedNode>/func_unit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|func_unit_TB.vhd</ClosedNode>
+         <ClosedNode>/functional_unit - Behavioral U:|Computer Architecture|Datapath|Datapath|functional_unit.vhd</ClosedNode>
+         <ClosedNode>/logic_unit_1bit - Behavioral U:|Computer Architecture|Datapath|Datapath|logic_unit_1bit.vhd</ClosedNode>
+         <ClosedNode>/logic_unit_1bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|logic_unit_1bit_TB.vhd</ClosedNode>
+         <ClosedNode>/logic_unit_1bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|logic_unit_1bit_TB.vhd/uut - logic_unit_1bit - Behavioral</ClosedNode>
+         <ClosedNode>/logic_unit_1bit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|logic_unit_1bit_TB.vhd</ClosedNode>
+         <ClosedNode>/logic_unit_TB - behavior U:|Computer Architecture|Datapath|Datapath|logic_unit_TB.vhd</ClosedNode>
+         <ClosedNode>/logic_unit_TB - behavior U:|Computer Architecture|Datapath|Datapath|logic_unit_TB.vhd/uut - logic_unit - Behavioral</ClosedNode>
+         <ClosedNode>/logic_unit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|logic_unit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux2_16bit_TB - behavior U:|CA Register File|RegsiterFile(Finished)|mux2_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux2_16bit_TB - behavior U:|CA Register File|RegsiterFile|mux2_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux2_16bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|mux2_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux2_16bit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|mux2_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux2_1bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|mux2_1bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux2_1bit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|mux2_1bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux4_16bit_TB - behavior U:|CA Register File|RegsiterFile(Finished)|mux4_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux4_16bit_TB - behavior U:|CA Register File|RegsiterFile|mux4_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux4_16bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|mux4_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux4_16bit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|mux4_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux8_16bit_TB - behavior U:|CA Register File|RegsiterFile|mux8_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux8_16bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|mux8_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/mux8_16bit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|mux8_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/reg_16bit_TB - behavior U:|CA Register File|RegsiterFile(Finished)|reg_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/reg_16bit_TB - behavior U:|CA Register File|RegsiterFile|reg_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/reg_16bit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|reg_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/register_file_16_TB - behavior U:|CA Register File|RegsiterFile|register_file_16_TB.vhd/uut - register_file_16 - Behavioral</ClosedNode>
+         <ClosedNode>/register_file_4_TB - behavior U:|CA Register File|RegsiterFile|register_file_4_TB.vhd</ClosedNode>
+         <ClosedNode>/register_file_4_TB - behavior U:|Computer Architecture|Datapath|Datapath|register_file_4_TB.vhd</ClosedNode>
+         <ClosedNode>/register_file_8_TB - behavior U:|CA Register File|RegsiterFile|register_file_8_TB.vhd</ClosedNode>
+         <ClosedNode>/register_file_8_TB - behavior U:|Computer Architecture|Datapath|Datapath|register_file_8_TB.vhd</ClosedNode>
+         <ClosedNode>/register_file_8_memory_load_TB - behavior U:|Computer Architecture|Datapath|Datapath|register_file_8_memory_load_TB.vhd</ClosedNode>
+         <ClosedNode>/register_file_8_register_transfer_TB - behavior U:|CA Register File|RegsiterFile(Finished)|register_file_8_register_transfer_TB.vhd</ClosedNode>
+         <ClosedNode>/register_file_8_register_transfer_TB - behavior U:|Computer Architecture|Datapath|Datapath|register_file_8_register_transfer_TB.vhd</ClosedNode>
+         <ClosedNode>/register_file_8_register_transfer_TB - behavior U:|Computer Architecture|Datapath|Datapath|register_file_8_register_transfer_TB.vhd/uut - register_file_8 - Behavioral</ClosedNode>
+         <ClosedNode>/register_file_withDP_8_TB - behavior U:|Computer Architecture|Datapath|Datapath|register_file_withDP_8_TB.vhd</ClosedNode>
+         <ClosedNode>/register_file_withDP_8_TB - behavior U:|Computer Architecture|MicroCode|Datapath|register_file_withDP_8_TB.vhd</ClosedNode>
+         <ClosedNode>/ripple_adder_16bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|ripple_adder_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/ripple_adder_16bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|ripple_adder_16bit_TB.vhd/uut - ripple_adder_16bit - Behavioral</ClosedNode>
+         <ClosedNode>/ripple_adder_16bit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|ripple_adder_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/shifter_16bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|shifter_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/shifter_16bit_TB - behavior U:|Computer Architecture|MicroCode|Datapath|shifter_16bit_TB.vhd</ClosedNode>
+         <ClosedNode>/unit_shifter_1bit_TB - behavior U:|Computer Architecture|Datapath|Datapath|unit_shifter_1bit_TB.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>full_processor_TB - behavior (U:/Computer Architecture/MicroCode/Datapath/full_processor_TB.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >21</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000021e000000020000000000000000000000000200000064ffffffff0000008100000003000000020000021e0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>full_processor_TB - behavior (U:/Computer Architecture/MicroCode/Datapath/full_processor_TB.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <CurrentView>Behavioral Simulation</CurrentView>
+</Project>

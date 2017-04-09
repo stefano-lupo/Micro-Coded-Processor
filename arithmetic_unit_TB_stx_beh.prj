@@ -1,0 +1,4 @@
+vhdl isim_temp "full_adder_1bit.vhd"
+vhdl isim_temp "ripple_adder_16bit.vhd"
+vhdl isim_temp "arithmetic_unit.vhd"
+vhdl isim_temp "arithmetic_unit_TB.vhd"

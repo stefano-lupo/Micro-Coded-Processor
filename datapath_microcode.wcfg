@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="U:/Computer Architecture/MicroCode/Datapath/datapath_microcode_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="datapath_microcode_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/datapath_microcode_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/regFile/reg0_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg0_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg0_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/regFile/reg1_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg1_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/regFile/reg2_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg2_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/regFile/reg3_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg3_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg3_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/regFile/reg4_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg4_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg4_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/regFile/reg5_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg5_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg5_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/regFile/reg6_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg6_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg6_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/regFile/reg7_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">reg7_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg7_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/dest_select" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dest_select[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dest_select[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/fs_control" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fs_control[4:0]</obj_property>
+      <obj_property name="ObjectShortName">fs_control[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/rw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw</obj_property>
+      <obj_property name="ObjectShortName">rw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/v" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">v</obj_property>
+      <obj_property name="ObjectShortName">v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n</obj_property>
+      <obj_property name="ObjectShortName">n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/z" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">z</obj_property>
+      <obj_property name="ObjectShortName">z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/mw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mw</obj_property>
+      <obj_property name="ObjectShortName">mw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/md" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">md</obj_property>
+      <obj_property name="ObjectShortName">md</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/mm" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mm</obj_property>
+      <obj_property name="ObjectShortName">mm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_microcode_tb/uut/mb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mb</obj_property>
+      <obj_property name="ObjectShortName">mb</obj_property>
+   </wvobject>
+</wave_config>

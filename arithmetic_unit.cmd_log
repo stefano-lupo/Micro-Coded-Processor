@@ -1,0 +1,1 @@
+vhdtdtfi -prj RegsiterFile -o "U:/Computer Architecture/Datapath/Datapath/arithmetic_unit.vhi" -module arithmetic_unit -template C:/Xilinx/13.2/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work full_adder_1bit.vhd -lib work ripple_adder_16bit.vhd -lib work arithmetic_unit.vhd 

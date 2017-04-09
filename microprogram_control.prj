@@ -1,0 +1,8 @@
+vhdl work "mux8_1bit.vhd"
+vhdl work "program_counter.vhd"
+vhdl work "mux2_8bit.vhd"
+vhdl work "instruction_register.vhd"
+vhdl work "control_memory_256_28bit.vhd"
+vhdl work "control_address_register.vhd"
+vhdl work "branch_unit.vhd"
+vhdl work "microprogram_control.vhd"

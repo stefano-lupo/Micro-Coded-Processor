@@ -1,0 +1,3 @@
+vhdl isim_temp "mux2_8bit.vhd"
+vhdl isim_temp "control_address_register.vhd"
+vhdl isim_temp "temp.vhd"

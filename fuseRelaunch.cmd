@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "U:/Computer Architecture/MicroCode/Datapath/full_processor_TB_isim_beh.exe" -prj "U:/Computer Architecture/MicroCode/Datapath/full_processor_TB_beh.prj" "work.full_processor_TB" 

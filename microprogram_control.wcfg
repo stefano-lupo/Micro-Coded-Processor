@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="U:/Computer Architecture/MicroCode/Datapath/microprogram_control_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="microprogram_control_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/microprogram_control_tb/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/instructionin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instructionin[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instructionin[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">n</obj_property>
+      <obj_property name="ObjectShortName">n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/z" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">z</obj_property>
+      <obj_property name="ObjectShortName">z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/v" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">v</obj_property>
+      <obj_property name="ObjectShortName">v</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/pcnextaddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcnextaddr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">pcnextaddr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/destreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">destreg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">destreg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/sourceareg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sourceareg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sourceareg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/sourcebreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sourcebreg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sourcebreg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/sourcebimmediate" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sourcebimmediate[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sourcebimmediate[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/mb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mb</obj_property>
+      <obj_property name="ObjectShortName">mb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/fsout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fsout[4:0]</obj_property>
+      <obj_property name="ObjectShortName">fsout[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/md" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">md</obj_property>
+      <obj_property name="ObjectShortName">md</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/regfilerw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regfilerw</obj_property>
+      <obj_property name="ObjectShortName">regfilerw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/mm" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mm</obj_property>
+      <obj_property name="ObjectShortName">mm</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/mw" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mw</obj_property>
+      <obj_property name="ObjectShortName">mw</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/clock_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/microprogram_control_tb/uut/car/currentcar" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">currentcar[7:0]</obj_property>
+      <obj_property name="ObjectShortName">currentcar[7:0]</obj_property>
+   </wvobject>
+</wave_config>
