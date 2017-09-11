@@ -1,5 +1,9 @@
 # Micro-Coded-Processor
 This repository contains VHDL (VHSIC Hardware Description Language) code used to build a micro coded instruction set processor. 
+The processor is based on the design contained in the textbook *Logic and Computer Design Fundamentals by M Morris Mano & Charles R. Kime*. 
+
+The block level schematic for the processor is shown below.
+![Block Diagram of Processor](/images/processorSchematic.png?raw=true "Block Diagram of Procsessor")
 
 # Processor Hierarchy
 - 9 Register Datapath
@@ -49,7 +53,15 @@ Control Memory is an array of 28 bit wide entries. Each entry in control memory 
 ![Control Memory Contents](/images/controlmem2.png?raw=true "Control Memory Contents")
 
 
+# Functional Unit Encodings
+In order for the processor to make use of the functional unit (for performing arithmetic, logic and shifting operations), the encodings of the desired operations are defined as follows.
+
+![Functional Unit Encodings](/images/functionalUnitEncodings.png?raw=true "Functional Unit Encodings")
+
+
 # Running a Test Program
+In order to test the functionality of the processor, a simple test program was inserted into the main memory and the results of each operation were inspected to ensure the results were correct.
+
 ## Part 1
 ![Test Program 1](/images/1.png?raw=true "Test Program 1")
 
