@@ -37,20 +37,23 @@ This repository contains VHDL (VHSIC Hardware Description Language) code used to
 Main Memory contains all of the instructions of our user program. An entry in Main Memory is 16 bits wide containing a 7 bit opcode, and three 3 bit encodings of registers - one for the destination register (DR) and one for each of the two source registers (SA, SB).
 The example program contained in main memory is shown below. This is the program that will be tested on the processor. 
 
+
 ![Main Memory Contents](/images/memory.png?raw=true "Main Memory Contents")
 
 
 # Control Memory
 Control Memory is an array of 28 bit wide entries. Each entry in control memory represents a state in a given state machine that implements a given instruction. For a micro coded solution control memory must be loaded with the correct entries in order to implement all of the desired instructions. The control memory for the required instructions is shown below
 
+
 ![Control Memory Contents](/images/controlmem1.png?raw=true "Control Memory Contents")
 ![Control Memory Contents](/images/controlmem2.png?raw=true "Control Memory Contents")
+
 
 # Running a Test Program
 ## Part 1
 ![Test Program 1](/images/1.png?raw=true "Test Program 1")
 
-All instructions take a minimum of three clock cycles to be performed as they must fetch the instruction, decode the instruction and execute the instruction, each of which take one clock cycle each. However some instructions may take more than this depending on how many micro-operations are required to implement the instruction. 
+All instructions take a minimum of three clock cycles to be performed as they must ***fetch*** the instruction, ***decode*** the instruction and ***execute*** the instruction, each of which take one clock cycle each. However some instructions may take more than this depending on how many micro-operations are required to implement the instruction. 
 
 **1. Unconditional Branch (contained in control memory 9) -  branches to start of user program (main memory 8).**
 ```
@@ -67,7 +70,10 @@ Mov r0, #3`
 Ldr r1, [r0]
 ```
 
-Note upon fetching the instruction, the PC is automatically incremented and the IL bit is set which results in the instruction register (IR) latching the new value of the program counter. The decoding stage places the opcode into the control address register (CAR) and does not update the register file. Finally the instruction is executed and the next address field (NA) in control memory points to control memory location zero (the location of the fetch next instruction micro operation), MuxC and MuxS are set accordingly to ensure this address is then placed into the CAR.
+Note upon fetching the instruction, the Program Counter ***(PC)*** is automatically incremented and the Instruction Latch ***(IL)*** bit is set which results in the instruction register ***(IR)*** latching the new value of the program counter. The decoding stage places the opcode into the control address register ***(CAR)*** and does **not** update the register file. 
+
+Finally the instruction is executed and the Next Address ***(NA)*** in control memory points to control memory location zero (the location of the fetch next instruction micro operation), MuxC and MuxS are set accordingly to ensure this address is then placed into the CAR.
+
 This fetch, decode and execute procedure is repeated for all instructions. 
 
 ## Part 2
@@ -88,7 +94,7 @@ Inc r3, r2
 Not r4, r3 
 ```
 
-This page shows the processor making use of the functional unit in order to perform some arithmetic and logic operations on the values contained in the registers. The instruction contained at the memory address pointed to by the program counter is fetched, the opcode is then decoded and placed in the CAR. The CAR then points into control memory to the implementation of the desired instruction. These entries in control memory contain the relevant FS encodings for their respective operations. The 5 bit FS code is then used to control the functional unit resulting in the desired operations being performed. The control memory also contains all of the required signals to instruct the datapath to ensure the correct values are present on the A and B ports for the relevant instructions.
+This shows the processor making use of the functional unit in order to perform some arithmetic and logic operations on the values contained in the registers. The instruction contained at the memory address pointed to by the program counter is fetched, the opcode is then decoded and placed in the ***CAR***. The ***CAR*** then points into control memory to the implementation of the desired instruction. These entries in control memory contain the relevant FS encodings for their respective operations. The 5 bit FS code is then used to control the functional unit resulting in the desired operations being performed. The control memory also contains all of the required signals to instruct the datapath to ensure the correct values are present on the A and B ports for the relevant instructions.
 
 The Source A, Source B and Destination registers are all specified in the instruction contained in main memory. As discussed, when this instruction is decoded, the opcode is placed into the CAR, however the encoding for each of the source and destination registers are also decoded. These signals are then used to drive the datapath during the execute stage resulting in the correct registers being used as source registers and destination registers. 
 
@@ -117,7 +123,7 @@ Adi r5, r2, #4
 
 **9. Branch by 1 (B skip) - This is done to skip over the code that was to be executed if the conditional branch was taken.**
 ```
-B +1
+B + 1
 
 ```
 
@@ -130,7 +136,7 @@ Mov r3, #6
 ## Part 5
 ![Test Program 5](/images/5.png?raw=true "Test Program 5")
 
-**11. Shift r5 to the right by the number of times contained in r6.	[(Sr 1101, 3) ⇒ 0110 ⇒ 0011 ⇒ 0001]**
+**11. Shift r5 to the right by the number of times contained in r6.	[Sr 1101, 3 = 0110 ⇒ 0011 ⇒ 0001]**
 ```
 Sr  r5, r6
 ```
@@ -141,7 +147,14 @@ The shift operation by an arbitrary number of bits is implemented using a micro-
 
 Finally the value of the counter reaches zero after three iterations and the microcode branches and fetches the next instruction from main memory. 
 
-  12. 	Mov r7, #7: 	Places the value of 7 into R7			
-  13→ inf: 		At this point the code repeatedly performs a unconditional branch backwards by one position. 
+**12. Place the value of 7 into R7 (No significance)**
+```
+Mov r7, #7
+```
+
+13 → inf: Repeatedly perform an unconditional branch backwards by one position (intentionally hang processor).
+```
+loop b loop
+```
 
 
